@@ -113,36 +113,36 @@ cat downloaded-file1.txt
 ```
 **Challenges and Troubleshooting**
 
-AccessDenied Errors:
+**AccessDenied Errors:**
 
 Encountered AccessDenied for s3:PutObject due to insufficient IAM permissions.
   * Resolved by attaching a custom policy with the required permissions.
     
-Empty Folder Issue:
+**Empty Folder Issue:**
 
 The folder was initially empty, causing aws s3 sync to appear successful but upload nothing.
   * Resolved by populating the folder with test files.
 
-Dynamic CloudShell IP:
+**Dynamic CloudShell IP:**
 
 SSH access failed after the CloudShell IP changed.
   * Resolved by updating the security group to allow the new IP.
 
-Networking Misconfigurations:
+**Networking Misconfigurations:**
 Verified and corrected VPC, subnet, and route table configurations to ensure public internet access.
 
 **Key Learnings**
 
-IAM Roles:
+**IAM Roles:**
 How to securely attach roles to EC2 instances for temporary access to S3.
 
-Networking:
+**Networking:**
 Importance of correctly configuring subnets, route tables, and Internet Gateways.
 
-S3 Operations:
+**S3 Operations:**
 Practical usage of aws s3 commands for file uploads, downloads, and synchronization.
 
-Troubleshooting:
+**Troubleshooting:**
 Real-world problem-solving with permissions, networking, and command usage.
 
 Next Steps
