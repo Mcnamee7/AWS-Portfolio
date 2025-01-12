@@ -17,12 +17,6 @@ This project demonstrates the setup and configuration of an AWS environment that
 5. *Troubleshoot and resolve challenges related to IAM roles, permissions, and networking.
 Architecture Diagram*
 
-[Include a visual diagram here]
-
-A visual representation of:
-The custom VPC and its subnets.
-Internet Gateway and route tables.
-The EC2 instance interacting with the S3 bucket.
 
 Steps Completed
 1. **VPC and Networking Setup**
