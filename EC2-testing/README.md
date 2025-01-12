@@ -70,7 +70,7 @@ Verified bucket accessibility from the EC2 instance.
 [Screenshot to include: S3 bucket overview showing its name and region]
 
 5. S3 Operations
-File Upload
+
 Created a test file on the EC2 instance:
 ```
 echo "test" > testfile.txt
@@ -84,7 +84,6 @@ Verified the file in the S3 bucket:
 aws s3 ls s3://testbucket997766/
 ```
 
-Folder Synchronization
 Created a folder on the EC2 instance:
 ```
 mkdir test-folder
@@ -102,7 +101,6 @@ aws s3 ls s3://testbucket997766/
 
 ![image](https://github.com/user-attachments/assets/5a1aacc5-73d6-4868-8fe5-58b15a02f083)
 
-File Download
 Downloaded a file from S3 to the instance:
 ```
 aws s3 cp s3://testbucket997766/file1.txt downloaded-file1.txt
